@@ -5,12 +5,15 @@ using System.Reflection.Emit;
 using HarmonyLib;
 using MelonLoader;
 
+// Max speed which I found to be stable is 127. 128 and above will cause that increasing speed will stop working.
+// Possibly because of some value type, but I cannot find it.
 namespace StrongholdSpeedVariety
 {
     class StrongholdSpeedVarietyMod : MelonMod
     {
         public override void OnInitializeMelon()
         {
+            MelonLogger.Msg("StrongholdSpeedVarietyMod has been loaded!");
         }
     }
     
@@ -28,6 +31,7 @@ namespace StrongholdSpeedVariety
                 {
                     list.Add(new CodeInstruction(OpCodes.Ldc_I4_S,125));
                     found = true;
+                    MelonLogger.Msg("IncreaseFrameRate patched!");
                 }
                 else
                 {
@@ -54,6 +58,7 @@ namespace StrongholdSpeedVariety
                 {
                     list.Add(new CodeInstruction(OpCodes.Ldc_R8, 125.0));
                     found = true;
+                    MelonLogger.Msg("SetEngineFrameRate patched!");
                 }
                 else
                 {
