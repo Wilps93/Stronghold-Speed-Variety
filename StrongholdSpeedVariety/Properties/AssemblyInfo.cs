@@ -1,9 +1,9 @@
-﻿using System.Reflection;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using MelonLoader;
 using StrongholdSpeedVariety;
 
-[assembly: MelonInfo(typeof(StrongholdSpeedVarietyMod), "StrongholdSpeedVariety", "1.0.0", "elfoxus")]
+[assembly: MelonInfo(typeof(StrongholdSpeedVarietyMod), "StrongholdSpeedVariety", "1.0.1", "elfoxus")]
 [assembly: MelonGame("Firefly Studios", "Stronghold 1 Definitive Edition")]
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
@@ -13,7 +13,7 @@ using StrongholdSpeedVariety;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("StrongholdSpeedVariety")]
-[assembly: AssemblyCopyright("Copyright ©  2024")]
+[assembly: AssemblyCopyright("Copyright © 2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -35,5 +35,5 @@ using StrongholdSpeedVariety;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.0.1")]
+[assembly: AssemblyFileVersion("1.0.0.1")]
