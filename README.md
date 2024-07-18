@@ -1,12 +1,19 @@
-﻿# Stronghold: Definitive Edition Speed Variety Mod
+# StrongholdDE-Speed-Variety
+Stronghold: Definitive Edition. Default max speed of the game is 90. The mod unlocks the max speed to 125.
 
-Default max speed of the game is 90. The mod unlocks the max speed to 125.
+Mod requires [MelonLoader](https://melonloader.b-cdn.net/MelonLoader.Installer.exe)
 
-Mod requires Melon Loader.
+# Installation:
 
-I've done this mod after seeing [this mod](https://github.com/Oryss/StrongholdDEMod) by Oryss.
-
-## Installation
-
-1. Install MelonLoader for Stronghold.
-2. Put mod's dll file into `StrongholdDE/Mods` folder.
+Unpack the archive to any location. <br />
+Run MelonLoader.Installer.exe. <br />
+In the "Unity Game:" field, specify the path to the game's exe by clicking the "Select" button. <br />
+Example path for Steam: <br />
+`C:\Program Files (x86)\Steam\steamapps\common\Stronghold Definitive Edition\Stronghold 1 Definitive Edition.exe` <br />
+**Important! Do not touch anything else in the window!** <br />
+Then click the "Install" button in the window. <br />
+That's it! The first step is done. You have installed ModLoader Melon. <br />
+Now, copy the Mods folder and place it in the root directory of the game. <br />
+Example path for Steam: `C:\Program Files (x86)\Steam\steamapps\common\Stronghold Definitive Edition` <br />
+<br />
+**Tested on Stronghold: Definitive Edition v.1.31 (Steam)**
