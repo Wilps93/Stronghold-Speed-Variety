@@ -29,7 +29,7 @@ namespace StrongholdSpeedVariety
             {
                 if (!found && instruction.opcode == OpCodes.Ldc_I4_S && (sbyte)instruction.operand == 90)
                 {
-                    list.Add(new CodeInstruction(OpCodes.Ldc_I4_S, 125));
+                    list.Add(new CodeInstruction(OpCodes.Ldc_I4, 300)); // Изменяем тип операнда на int
                     found = true;
                     MelonLogger.Msg("IncreaseFrameRate patched!");
                 }
@@ -57,7 +57,7 @@ namespace StrongholdSpeedVariety
             {
                 if (!found && instruction.opcode == OpCodes.Ldc_R8 && (double)instruction.operand == 90.0)
                 {
-                    list.Add(new CodeInstruction(OpCodes.Ldc_R8, 125.0));
+                    list.Add(new CodeInstruction(OpCodes.Ldc_R8, 300.0));
                     found = true;
                     MelonLogger.Msg("SetEngineFrameRate patched!");
                 }
