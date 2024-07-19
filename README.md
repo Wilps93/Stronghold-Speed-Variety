@@ -15,11 +15,11 @@ Unpack the archive to any location. <br />
 Run MelonLoader.Installer.exe. <br />
 In the "Unity Game:" field, specify the path to the game's exe by clicking the "Select" button. <br />
 Example path for Steam: <br />
-`C:\Program Files (x86)\Steam\steamapps\common\Stronghold Definitive Edition\Stronghold 1 Definitive Edition.exe`
+"C:\Program Files (x86)\Steam\steamapps\common\Stronghold Definitive Edition\Stronghold 1 Definitive Edition.exe" <br />
 **Important! Do not touch anything else in the window!** <br />
 Then click the "Install" button in the window. <br />
 That's it! The first step is done. You have installed ModLoader Melon. <br />
 Now, copy the Mods folder and place it in the root directory of the game. <br />
-Example path for Steam: `C:\Program Files (x86)\Steam\steamapps\common\Stronghold Definitive Edition`
+Example path for Steam: "C:\Program Files (x86)\Steam\steamapps\common\Stronghold Definitive Edition" <br />
 <br />
 **Tested on Stronghold: Definitive Edition v.1.31 (Steam)** <br />
