@@ -54,15 +54,12 @@ namespace StrongholdSpeedVariety
                 {
                     list.Add(new CodeInstruction(OpCodes.Ldc_R8, 5.0));
                     found5 = true;
-                    MelonLogger.Msg("SetEngineFrameRate patched!");
                 }
                 else
                 {
                     list.Add(instruction);
                 }
             }
-            if (!found5)
-                throw new ArgumentException("Cannot find upper limit in Director.SetEngineFrameRate");
             return list;
         }
     }
@@ -82,7 +79,7 @@ namespace StrongholdSpeedVariety
                 {
                     list.Add(new CodeInstruction(OpCodes.Ldc_R8, 5.0));
                     found5 = true;
-                    MelonLogger.Msg("SetEngineFrameRate patched!");
+                    MelonLogger.Msg("DecreaseFrameRate patched!");
                 }
                 else
                 {
@@ -90,7 +87,7 @@ namespace StrongholdSpeedVariety
                 }
             }
             if (!found5)
-                throw new ArgumentException("Cannot find upper limit in Director.SetEngineFrameRate");
+                throw new ArgumentException("Cannot find upper limit in Director.DecreaseFrameRate");
             return list;
         }   
     }
