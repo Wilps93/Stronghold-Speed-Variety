@@ -8,7 +8,7 @@ From 90 to 200 in intervals of 10 <br />
 From 200 to 1000 in intervals of 100 <br />
 <br />
 Mod requires [MelonLoader](https://melonloader.b-cdn.net/MelonLoader.Installer.exe) <br />
-<br />
+
 # Installation: <br />
 <br />
 Unpack the archive to any location. <br />
