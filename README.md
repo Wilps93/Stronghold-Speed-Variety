@@ -1,5 +1,5 @@
-# Stronghold: Definitive Edition - Speed Variety <br />
-Stronghold: Definitive Edition. Default max speed of the game is 90. <br />
+# Stronghold: Definitive Edition - Speed Variety Mod <br />
+Default max speed of the game is 90. <br />
 Mod unlock increased max speed to 1000. <br />
 <br />
 The game speed can now be changed as follows: <br />
