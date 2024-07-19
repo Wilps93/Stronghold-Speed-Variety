@@ -1,5 +1,11 @@
-# StrongholdDE-Speed-Variety
-Stronghold: Definitive Edition. Default max speed of the game is 90. The mod unlocks the max speed to 125, 300, 500.
+# Stronghold: Definitive Edition - Speed Variety
+Stronghold: Definitive Edition. Default max speed of the game is 90.
+Mod unlock increased max speed to 1000.
+
+The game speed can now be changed as follows:
+From 10 to 90 in intervals of 5
+From 90 to 200 in intervals of 10
+From 200 to 1000 in intervals of 100
 
 Mod requires [MelonLoader](https://melonloader.b-cdn.net/MelonLoader.Installer.exe)
 
